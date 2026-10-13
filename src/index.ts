@@ -1,6 +1,6 @@
 import { TranslationMessages } from 'ra-core';
 
-const RussianTranslation = {
+const RussianTranslation: TranslationMessages = {
     ra: {
         action: {
             add_filter: 'Добавить фильтр',
@@ -225,5 +225,4 @@ const RussianTranslation = {
     },
 };
 
-// Проверяем тип перевода, сохраняя новые ключи, которых ещё нет в ra-core 5.13.5.
-export default RussianTranslation satisfies TranslationMessages;
+export default RussianTranslation;
