@@ -185,6 +185,12 @@ const RussianTranslation: TranslationMessages = {
             remove_message: 'Вы уверены, что хотите удалить этот запрос из списка сохраненных запросов?',
             help: 'Отфильтровать список и сохранить запрос на будущее',
         },
+        guesser: {
+            empty: {
+                title: 'Нет данных для отображения',
+                message: 'Проверьте источник данных',
+            },
+        },
         configurable: {
             customize: 'Настроить',
             configureMode: 'Настроить эту страницу',
